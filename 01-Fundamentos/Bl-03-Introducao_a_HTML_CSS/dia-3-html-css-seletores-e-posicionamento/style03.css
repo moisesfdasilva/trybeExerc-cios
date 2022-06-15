@@ -1,0 +1,17 @@
+h1, p{
+    text-align: center;
+}
+.listas{
+    list-style: none
+}
+.listas li:hover{
+    background-color: gainsboro;
+}
+.listas li:active{
+    font-family: monospace;
+}
+/*
+-O texto das tags 'h1' e 'p' estejam centralizados.
+-A cor de fundo da sua lista mude quando o cursor estiver sobre o item.
+-A fonte do item mude quando ele for clicado.
+*/
