@@ -1,0 +1,60 @@
+/* CRIAÇÃO DOS ELEMENTOS QUE MODIFICAM O TEXTO: */
+#background-color1 , .selectBackColor1 {
+  background-color: yellow;
+}
+
+#background-color2 , .selectBackColor2{
+  background-color: orange;
+}
+
+#background-color3 , .selectBackColor3{
+  background-color: gray;
+}
+
+#text-color1 , .selectTextColor1 {
+  color: green;
+}
+
+#text-color2 , .selectTextColor2 {
+  color: purple;
+}
+
+#text-color3 , .selectTextColor3 {
+  color: blue;
+}
+
+#font-size1 , .selectFontSize1 {
+  font-size: 20px;
+}
+
+#font-size2 , .selectFontSize2 {
+  font-size: 25px;
+}
+
+#font-size3 , .selectFontSize3 {
+  font-size: 35px;
+}
+
+#line-height1 , .selectLineHeight1 {
+  line-height: 25px;
+}
+
+#line-height2 , .selectLineHeight2 {
+  line-height: 30px;
+}
+
+#line-height3 , .selectLineHeight3 {
+  line-height: 35px;
+}
+
+#font-family1 , .selectFontFamily1 {
+  font-family: 'monospace';
+}
+
+#font-family2 , .selectFontFamily2 {
+  font-family: 'Cambria';
+}
+
+#font-family3 , .selectFontFamily3 {
+  font-family: 'Arial';
+}
