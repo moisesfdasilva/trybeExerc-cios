@@ -16,6 +16,14 @@ class App extends React.Component {
     this.setState((previousState, _props) => ({
       [name]: previousState[name] + 1,
     }));
+
+    if (Number(this.state[name] + 1) % 2 === 0) {
+      target.style.backgroundColor = 'green';
+      console.log(target.style.backgroundColor);
+    } else {
+      target.style.backgroundColor = 'initial';
+      console.log(target.style.backgroundColor);
+    }
   };
 
   render() {
