@@ -1,0 +1,18 @@
+para criar a imagem
+  pesquisa no site https://hub.docker.com/_/debian
+    docker pull debian
+para criar o container
+  docker container create -it debian
+para iniciar o container:
+  docker container start 8a3
+para verificar a hash:
+  docker ps
+para retornar ao controle:
+  docker exec -it 8a3 bash
+para verificar em que sistema operacional estamos:
+  cat /etc/*-release
+para sair do bash
+  exit
+para parar o container
+  docker container stop 8a3
+
