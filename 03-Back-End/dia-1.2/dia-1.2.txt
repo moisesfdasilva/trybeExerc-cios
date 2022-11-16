@@ -1,0 +1,9 @@
+Criação do Dockerfile
+Criação da imagem:
+  docker image build -t cowsay-img .
+Rodar o container:
+  docker container run cowsay-img
+Para ver os outros animais:
+  docker container run cowsay-img -l
+Para rodar com os outros animais:
+  docker container run cowsay-img -f moofasa "#VQV TRYBE"
