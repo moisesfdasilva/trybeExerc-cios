@@ -1,0 +1,16 @@
+Comando para executar o container com a imagem e o volume:
+  docker run -d --name site-trybe -p 4545:80 -v /home/fernandess/trybeExercicios/03-Back-End/dia-1.3/1/:/usr/local/apache2/htdocs httpd:2.4
+
+Acessar o site:
+  http://localhost:4545
+  http://localhost:4545/missao_trybe.html
+
+Para obter o mount:
+  docker inspect <id do container>
+
+Para usar o docker-compose:
+OBS: É necessário estar na pasta do arquivo.
+  docker-compose up -d
+
+Para acessar o site:
+  http://localhost:2368
